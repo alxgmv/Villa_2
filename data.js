@@ -30,14 +30,14 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.11367106027404716,
-          "pitch": -0.027050234779970594,
+          "yaw": -0.11564180143497893,
+          "pitch": -0.0270687697811951,
           "rotation": 0,
           "target": "1-flur"
         },
         {
-          "yaw": -0.5914000711523855,
-          "pitch": 0.02070399463751471,
+          "yaw": -0.5895942409319463,
+          "pitch": -0.013329595244659487,
           "rotation": 0,
           "target": "2-hall"
         }
@@ -74,10 +74,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.2477524167593703,
-          "pitch": -0.11582911982971034,
+          "yaw": 2.151924542829464,
+          "pitch": -0.08349430158738969,
           "rotation": 0,
           "target": "0-wohnzimmer"
+        },
+        {
+          "yaw": -2.1520203050075217,
+          "pitch": 0.005561238205137542,
+          "rotation": 0,
+          "target": "9-badezimmer-3"
         }
       ],
       "infoHotspots": []
@@ -380,6 +386,44 @@ var APP_DATA = {
           "pitch": 0.000521771959656192,
           "rotation": 0,
           "target": "2-hall"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "9-badezimmer-3",
+      "name": "Badezimmer-3",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1500,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.570950513064238,
+          "pitch": -0.14589782441404608,
+          "rotation": 0,
+          "target": "1-flur"
         }
       ],
       "infoHotspots": []
